@@ -80,6 +80,7 @@ Current templates:
 - `funnel` — narrowing/filtering decisions
 - `bento-field-note` — peer principles/rules
 - `research-summary` — source summary cards: title, TLDR, signal points, status, action verdict
+- `topic-digest` — "state of X" digests: consensus, open questions, stance across many sources
 
 ## Quick Start
 
