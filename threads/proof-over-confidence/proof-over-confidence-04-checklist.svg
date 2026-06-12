@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600">
+
+  <defs>
+    <style>
+      .mono{font-family: ui-monospace, 'SF Mono', 'Berkeley Mono', 'IBM Plex Mono', Menlo, Consolas, monospace;}
+      .fg{fill:#eeeeee}.muted{fill:#9a9a9a}.dim{fill:#626262}
+      .thin{stroke:#bdbdbd;stroke-width:1.5;fill:none}
+      .title{font-size:50px;font-weight:650;letter-spacing:-1px}.small{font-size:24px;font-weight:500}.tiny{font-size:18px;font-weight:500;letter-spacing:1.5px}.foot{font-size:18px;font-weight:500;letter-spacing:1.2px}.label{font-size:24px;font-weight:620}.sub{font-size:20px;font-weight:500}
+    </style>
+  </defs>
+
+  <rect width="1600" height="1600" fill="#050505"/>
+  <rect x="92" y="86" width="1416" height="1428" class="thin" opacity=".65"/>
+  <line x1="92" y1="162" x2="1508" y2="162" class="thin" opacity=".55"/>
+  <circle cx="134" cy="124" r="7" fill="#eeeeee" opacity=".85"/>
+  <circle cx="166" cy="124" r="7" fill="#eeeeee" opacity=".45"/>
+  <circle cx="198" cy="124" r="7" fill="#eeeeee" opacity=".25"/>
+  <text x="1420" y="132" text-anchor="end" class="mono tiny dim">04/04</text>
+
+  <text x="154" y="254" class="mono tiny dim">PROOF OVER CONFIDENCE</text>
+  <text x="154" y="332" class="mono title fg">before you say done</text>
+  <text x="154" y="384" class="mono small muted">six checks that keep summaries honest</text>
+  <line x1="154" y1="452" x2="1446" y2="452" class="thin" opacity=".6"/>
+
+  <g transform="translate(154 515)">
+    <text x="0" y="0" class="mono tiny dim">PRINCIPLE FIELD</text>
+    <rect x="0" y="56" width="604" height="180" class="thin" opacity=".62"/>
+    <text x="28" y="106" class="mono label fg">artifact exists</text>
+    <text x="28" y="144" class="mono sub muted">not just a plan</text>
+    <rect x="688" y="56" width="604" height="180" class="thin" opacity=".62"/>
+    <text x="716" y="106" class="mono label fg">command ran</text>
+    <text x="716" y="144" class="mono sub muted">not just assumed</text>
+    <rect x="0" y="280" width="604" height="180" class="thin" opacity=".62"/>
+    <text x="28" y="330" class="mono label fg">output checked</text>
+    <text x="28" y="368" class="mono sub muted">not just skimmed</text>
+    <rect x="688" y="280" width="604" height="180" class="thin" opacity=".62"/>
+    <text x="716" y="330" class="mono label fg">edge case seen</text>
+    <text x="716" y="368" class="mono sub muted">not just happy path</text>
+    <rect x="0" y="504" width="604" height="180" class="thin" opacity=".62"/>
+    <text x="28" y="554" class="mono label fg">source preserved</text>
+    <text x="28" y="592" class="mono sub muted">not just screenshot</text>
+    <rect x="688" y="504" width="604" height="180" class="thin" opacity=".62"/>
+    <text x="716" y="554" class="mono label fg">claim matches</text>
+    <text x="716" y="592" class="mono sub muted">not just confidence</text>
+  </g>
+
+  <line x1="154" y1="1252" x2="1446" y2="1252" class="thin" opacity=".6"/>
+  <text x="154" y="1324" class="mono tiny dim">RULE</text>
+  <text x="154" y="1380" class="mono small fg">Done means demonstrated.</text>
+  <text x="154" y="1428" class="mono small muted">A thread should end with a reusable check.</text>
+
+  <text x="154" y="1468" class="mono foot dim">template/bento-field-note</text>
+  <text x="1446" y="1468" text-anchor="end" class="mono foot dim">proof thread</text>
+</svg>

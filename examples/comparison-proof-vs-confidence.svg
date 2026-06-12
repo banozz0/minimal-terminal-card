@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600">
+
+  <defs>
+    <style>
+      .mono{font-family: ui-monospace, 'SF Mono', 'Berkeley Mono', 'IBM Plex Mono', Menlo, Consolas, monospace;}
+      .fg{fill:#eeeeee}.muted{fill:#9a9a9a}.dim{fill:#626262}
+      .stroke{stroke:#eeeeee;stroke-width:2;fill:none}.thin{stroke:#bdbdbd;stroke-width:1.5;fill:none}.dash{stroke-dasharray:8 8}
+      .title{font-size:50px;font-weight:650;letter-spacing:-1px}.small{font-size:24px;font-weight:500}.tiny{font-size:18px;font-weight:500;letter-spacing:1.5px}.label{font-size:28px;font-weight:600}.boxText{font-size:24px;font-weight:540}.num{font-size:24px;font-weight:600}.foot{font-size:18px;font-weight:500;letter-spacing:1.2px}.mini{font-size:20px;font-weight:500}.table{font-size:22px;font-weight:520}.big{font-size:34px;font-weight:650;letter-spacing:-.5px}.day{font-size:22px;font-weight:650;letter-spacing:1.8px}.game{font-size:20px;font-weight:540}.time{font-size:20px;font-weight:650}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10" fill="none" stroke="#eeeeee" stroke-width="1.6"/></marker>
+  </defs>
+
+  <rect width="1600" height="1600" fill="#050505"/>
+  <rect x="92" y="86" width="1416" height="1428" class="thin" opacity=".65"/>
+  <line x1="92" y1="162" x2="1508" y2="162" class="thin" opacity=".55"/>
+  <circle cx="134" cy="124" r="7" fill="#eeeeee" opacity=".85"/>
+  <circle cx="166" cy="124" r="7" fill="#eeeeee" opacity=".45"/>
+  <circle cx="198" cy="124" r="7" fill="#eeeeee" opacity=".25"/>
+  <text x="1420" y="132" text-anchor="end" class="mono tiny dim">example_001</text>
+
+  <text x="154" y="254" class="mono tiny dim">OPERATING NOTE</text>
+  <text x="154" y="332" class="mono title fg">proof vs confidence</text>
+  <text x="154" y="384" class="mono small muted">the difference is not tone. it is evidence.</text>
+  <line x1="154" y1="452" x2="1446" y2="452" class="thin" opacity=".6"/>
+
+  <g transform="translate(154 540)">
+    <text x="0" y="0" class="mono tiny dim">COMPARISON</text>
+    <line x1="646" y1="46" x2="646" y2="670" class="thin" opacity=".42"/>
+    <text x="0" y="96" class="mono big fg">confidence</text><text x="740" y="96" class="mono big fg">proof</text>
+    <text x="0" y="142" class="mono small muted">sounds right before contact</text><text x="740" y="142" class="mono small muted">survives contact with reality</text>
+    <line x1="0" y1="204" x2="1248" y2="204" class="thin" opacity=".42"/>
+    <text x="0" y="270" class="mono num fg">01.</text><text x="76" y="270" class="mono label fg">claims</text><text x="740" y="270" class="mono num fg">01.</text><text x="816" y="270" class="mono label fg">runs</text>
+    <line x1="0" y1="322" x2="1248" y2="322" class="thin" opacity=".25"/>
+    <text x="0" y="388" class="mono num fg">02.</text><text x="76" y="388" class="mono label fg">assumes</text><text x="740" y="388" class="mono num fg">02.</text><text x="816" y="388" class="mono label fg">checks</text>
+    <line x1="0" y1="440" x2="1248" y2="440" class="thin" opacity=".25"/>
+    <text x="0" y="506" class="mono num fg">03.</text><text x="76" y="506" class="mono label fg">explains later</text><text x="740" y="506" class="mono num fg">03.</text><text x="816" y="506" class="mono label fg">shows receipts</text>
+    <line x1="0" y1="558" x2="1248" y2="558" class="thin" opacity=".25"/>
+    <text x="0" y="624" class="mono num fg">04.</text><text x="76" y="624" class="mono label fg">breaks trust</text><text x="740" y="624" class="mono num fg">04.</text><text x="816" y="624" class="mono label fg">earns trust</text>
+  </g>
+
+  <line x1="154" y1="1252" x2="1446" y2="1252" class="thin" opacity=".6"/>
+  <text x="154" y="1324" class="mono tiny dim">RULE</text>
+  <text x="154" y="1380" class="mono small fg">confidence is cheap until reality asks for receipts.</text>
+  <text x="154" y="1428" class="mono small muted">proof is what turns an answer into something useful.</text>
+
+  <text x="154" y="1468" class="mono foot dim">example/comparison</text>
+  <text x="1446" y="1468" text-anchor="end" class="mono foot dim">terminal.cards</text>
+</svg>

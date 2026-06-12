@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600">
+
+  <defs>
+    <style>
+      .mono{font-family: ui-monospace, 'SF Mono', 'Berkeley Mono', 'IBM Plex Mono', Menlo, Consolas, monospace;}
+      .fg{fill:#eeeeee}.muted{fill:#9a9a9a}.dim{fill:#626262}
+      .stroke{stroke:#eeeeee;stroke-width:2;fill:none}.thin{stroke:#bdbdbd;stroke-width:1.5;fill:none}.dash{stroke-dasharray:8 8}
+      .title{font-size:50px;font-weight:650;letter-spacing:-1px}.small{font-size:24px;font-weight:500}.tiny{font-size:18px;font-weight:500;letter-spacing:1.5px}.label{font-size:28px;font-weight:600}.boxText{font-size:24px;font-weight:540}.num{font-size:24px;font-weight:600}.foot{font-size:18px;font-weight:500;letter-spacing:1.2px}.mini{font-size:20px;font-weight:500}.table{font-size:22px;font-weight:520}.big{font-size:34px;font-weight:650;letter-spacing:-.5px}.day{font-size:22px;font-weight:650;letter-spacing:1.8px}.game{font-size:20px;font-weight:540}.time{font-size:20px;font-weight:650}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10" fill="none" stroke="#eeeeee" stroke-width="1.6"/></marker>
+  </defs>
+
+  <rect width="1600" height="1600" fill="#050505"/>
+  <rect x="92" y="86" width="1416" height="1428" class="thin" opacity=".65"/>
+  <line x1="92" y1="162" x2="1508" y2="162" class="thin" opacity=".55"/>
+  <circle cx="134" cy="124" r="7" fill="#eeeeee" opacity=".85"/>
+  <circle cx="166" cy="124" r="7" fill="#eeeeee" opacity=".45"/>
+  <circle cx="198" cy="124" r="7" fill="#eeeeee" opacity=".25"/>
+  <text x="1420" y="132" text-anchor="end" class="mono tiny dim">{{CARD_ID}}</text>
+
+  <text x="154" y="254" class="mono tiny dim">{{EYEBROW}}</text>
+  <text x="154" y="332" class="mono title fg">{{TITLE}}</text>
+  <text x="154" y="384" class="mono small muted">{{SUBTITLE}}</text>
+  <line x1="154" y1="452" x2="1446" y2="452" class="thin" opacity=".6"/>
+
+  <!-- Replace roles. Use dashed outer rails for return/proof flows if needed. -->
+  <g transform="translate(824 520)">
+    <rect x="0" y="0" width="546" height="678" class="thin" opacity=".72"/><text x="28" y="42" class="mono tiny dim">AGENCY TOPOLOGY</text>
+    <rect x="188" y="74" width="170" height="64" class="stroke"/><text x="239" y="113" class="mono boxText fg">{{USER}}</text>
+    <rect x="156" y="196" width="234" height="76" class="stroke"/><text x="205" y="228" class="mono boxText fg">{{CEO}}</text><text x="198" y="254" class="mono mini muted">{{CEO_SUB}}</text>
+    <rect x="48" y="360" width="180" height="76" class="stroke"/><text x="83" y="392" class="mono mini fg">{{AGENT_1}}</text><text x="86" y="418" class="mono tiny muted">{{AGENT_1_SUB}}</text>
+    <rect x="318" y="360" width="180" height="76" class="stroke"/><text x="359" y="392" class="mono mini fg">{{AGENT_2}}</text><text x="361" y="418" class="mono tiny muted">{{AGENT_2_SUB}}</text>
+    <rect x="48" y="514" width="180" height="76" class="stroke" opacity=".82"/><text x="91" y="546" class="mono mini fg">{{AGENT_3}}</text><text x="88" y="572" class="mono tiny muted">{{AGENT_3_SUB}}</text>
+    <rect x="318" y="514" width="180" height="76" class="stroke" opacity=".82"/><text x="361" y="546" class="mono mini fg">{{AGENT_4}}</text><text x="371" y="572" class="mono tiny muted">{{AGENT_4_SUB}}</text>
+    <path d="M273 152 V180" class="stroke" marker-end="url(#arrow)"/><path d="M188 286 V322 H138 V344" class="thin" marker-end="url(#arrow)"/><path d="M358 286 V322 H408 V344" class="thin" marker-end="url(#arrow)"/>
+    <path d="M138 452 V498" class="thin dash" marker-end="url(#arrow)"/><path d="M408 452 V498" class="thin dash" marker-end="url(#arrow)"/><path d="M244 552 H302" class="thin dash" marker-end="url(#arrow)" opacity=".75"/>
+    <line x1="28" y1="630" x2="518" y2="630" class="thin" opacity=".35"/><text x="28" y="658" class="mono tiny dim">{{DIAGRAM_FOOTER}}</text>
+  </g>
+
+  <line x1="154" y1="1252" x2="1446" y2="1252" class="thin" opacity=".6"/>
+  <text x="154" y="1324" class="mono tiny dim">RULE</text>
+  <text x="154" y="1380" class="mono small fg">{{RULE_LINE_1}}</text>
+  <text x="154" y="1428" class="mono small muted">{{RULE_LINE_2}}</text>
+
+  <text x="154" y="1468" class="mono foot dim">skill/minimal-terminal-card</text>
+  <text x="1446" y="1468" text-anchor="end" class="mono foot dim">{{FOOTER_RIGHT}}</text>
+</svg>

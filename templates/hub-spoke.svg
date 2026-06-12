@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600">
+
+  <defs>
+    <style>
+      .mono{font-family: ui-monospace, 'SF Mono', 'Berkeley Mono', 'IBM Plex Mono', Menlo, Consolas, monospace;}
+      .fg{fill:#eeeeee}.muted{fill:#9a9a9a}.dim{fill:#626262}
+      .stroke{stroke:#eeeeee;stroke-width:2;fill:none}.thin{stroke:#bdbdbd;stroke-width:1.5;fill:none}.dash{stroke-dasharray:8 8}
+      .title{font-size:50px;font-weight:650;letter-spacing:-1px}.small{font-size:24px;font-weight:500}.tiny{font-size:18px;font-weight:500;letter-spacing:1.5px}.label{font-size:28px;font-weight:600}.boxText{font-size:24px;font-weight:540}.num{font-size:24px;font-weight:600}.foot{font-size:18px;font-weight:500;letter-spacing:1.2px}.mini{font-size:20px;font-weight:500}.table{font-size:22px;font-weight:520}.big{font-size:34px;font-weight:650;letter-spacing:-.5px}.day{font-size:22px;font-weight:650;letter-spacing:1.8px}.game{font-size:20px;font-weight:540}.time{font-size:20px;font-weight:650}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10" fill="none" stroke="#eeeeee" stroke-width="1.6"/></marker>
+  </defs>
+
+  <rect width="1600" height="1600" fill="#050505"/>
+  <rect x="92" y="86" width="1416" height="1428" class="thin" opacity=".65"/>
+  <line x1="92" y1="162" x2="1508" y2="162" class="thin" opacity=".55"/>
+  <circle cx="134" cy="124" r="7" fill="#eeeeee" opacity=".85"/>
+  <circle cx="166" cy="124" r="7" fill="#eeeeee" opacity=".45"/>
+  <circle cx="198" cy="124" r="7" fill="#eeeeee" opacity=".25"/>
+  <text x="1420" y="132" text-anchor="end" class="mono tiny dim">{{CARD_ID}}</text>
+
+  <text x="154" y="254" class="mono tiny dim">{{EYEBROW}}</text>
+  <text x="154" y="332" class="mono title fg">{{TITLE}}</text>
+  <text x="154" y="384" class="mono small muted">{{SUBTITLE}}</text>
+  <line x1="154" y1="452" x2="1446" y2="452" class="thin" opacity=".6"/>
+
+  <!-- Replace hub and spokes. Keep 4-6 spokes. Lines should stop before boxes. -->
+  <g transform="translate(154 480)">
+    <text x="0" y="28" class="mono tiny dim">HUB + SPOKE</text>
+    <rect x="96" y="78" width="1100" height="650" class="thin" opacity=".62"/>
+    <rect x="486" y="328" width="320" height="106" class="stroke"/><text x="568" y="370" class="mono big fg">{{HUB}}</text><text x="548" y="406" class="mono mini muted">{{HUB_SUB}}</text>
+    <rect x="118" y="132" width="260" height="82" class="stroke"/><text x="168" y="182" class="mono boxText fg">{{SPOKE_1}}</text>
+    <rect x="516" y="106" width="260" height="82" class="stroke"/><text x="584" y="156" class="mono boxText fg">{{SPOKE_2}}</text>
+    <rect x="914" y="132" width="260" height="82" class="stroke"/><text x="970" y="182" class="mono boxText fg">{{SPOKE_3}}</text>
+    <rect x="118" y="560" width="260" height="82" class="stroke"/><text x="174" y="610" class="mono boxText fg">{{SPOKE_4}}</text>
+    <rect x="516" y="586" width="260" height="82" class="stroke"/><text x="576" y="636" class="mono boxText fg">{{SPOKE_5}}</text>
+    <rect x="914" y="560" width="260" height="82" class="stroke"/><text x="986" y="610" class="mono boxText fg">{{SPOKE_6}}</text>
+    <path d="M392 198 L510 320" class="thin" marker-end="url(#arrow)"/><path d="M646 204 V312" class="thin" marker-end="url(#arrow)"/><path d="M900 198 L782 320" class="thin" marker-end="url(#arrow)"/>
+    <path d="M392 574 L510 448" class="thin" marker-end="url(#arrow)"/><path d="M646 570 V450" class="thin" marker-end="url(#arrow)"/><path d="M900 574 L782 448" class="thin" marker-end="url(#arrow)"/>
+    <line x1="142" y1="704" x2="1150" y2="704" class="thin" opacity=".32"/><text x="142" y="736" class="mono tiny dim">{{DIAGRAM_FOOTER}}</text>
+  </g>
+
+  <line x1="154" y1="1252" x2="1446" y2="1252" class="thin" opacity=".6"/>
+  <text x="154" y="1324" class="mono tiny dim">RULE</text>
+  <text x="154" y="1380" class="mono small fg">{{RULE_LINE_1}}</text>
+  <text x="154" y="1428" class="mono small muted">{{RULE_LINE_2}}</text>
+
+  <text x="154" y="1468" class="mono foot dim">skill/minimal-terminal-card</text>
+  <text x="1446" y="1468" text-anchor="end" class="mono foot dim">{{FOOTER_RIGHT}}</text>
+</svg>

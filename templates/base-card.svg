@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600">
+  <defs>
+    <style>
+      .mono{font-family: ui-monospace, 'SF Mono', 'Berkeley Mono', 'IBM Plex Mono', Menlo, Consolas, monospace;}
+      .fg{fill:#eeeeee}.muted{fill:#9a9a9a}.dim{fill:#626262}
+      .stroke{stroke:#eeeeee;stroke-width:2;fill:none}.thin{stroke:#bdbdbd;stroke-width:1.5;fill:none}.dash{stroke-dasharray:8 8}
+      .title{font-size:50px;font-weight:650;letter-spacing:-1px}.small{font-size:24px;font-weight:500}.tiny{font-size:18px;font-weight:500;letter-spacing:1.5px}.label{font-size:28px;font-weight:600}.boxText{font-size:24px;font-weight:540}.num{font-size:24px;font-weight:600}.foot{font-size:18px;font-weight:500;letter-spacing:1.2px}.mini{font-size:20px;font-weight:500}.big{font-size:34px;font-weight:650;letter-spacing:-.5px}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10" fill="none" stroke="#eeeeee" stroke-width="1.6"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="1600" fill="#050505"/>
+
+  <!-- terminal frame -->
+  <rect x="92" y="86" width="1416" height="1428" class="thin" opacity=".65"/>
+  <line x1="92" y1="162" x2="1508" y2="162" class="thin" opacity=".55"/>
+  <circle cx="134" cy="124" r="7" fill="#eeeeee" opacity=".85"/>
+  <circle cx="166" cy="124" r="7" fill="#eeeeee" opacity=".45"/>
+  <circle cx="198" cy="124" r="7" fill="#eeeeee" opacity=".25"/>
+  <text x="1420" y="132" text-anchor="end" class="mono tiny dim">{{CARD_ID}}</text>
+
+  <!-- header -->
+  <text x="154" y="254" class="mono tiny dim">{{EYEBROW}}</text>
+  <text x="154" y="332" class="mono title fg">{{TITLE}}</text>
+  <text x="154" y="384" class="mono small muted">{{SUBTITLE}}</text>
+  <line x1="154" y1="452" x2="1446" y2="452" class="thin" opacity=".6"/>
+
+  <!-- layout-specific body goes here -->
+  {{BODY}}
+
+  <!-- bottom rule -->
+  <line x1="154" y1="1252" x2="1446" y2="1252" class="thin" opacity=".6"/>
+  <text x="154" y="1324" class="mono tiny dim">RULE</text>
+  <text x="154" y="1380" class="mono small fg">{{RULE_LINE_1}}</text>
+  <text x="154" y="1428" class="mono small muted">{{RULE_LINE_2}}</text>
+
+  <text x="154" y="1468" class="mono foot dim">{{FOOTER_LEFT}}</text>
+  <text x="1446" y="1468" text-anchor="end" class="mono foot dim">{{FOOTER_RIGHT}}</text>
+</svg>

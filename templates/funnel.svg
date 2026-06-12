@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600">
+
+  <defs>
+    <style>
+      .mono{font-family: ui-monospace, 'SF Mono', 'Berkeley Mono', 'IBM Plex Mono', Menlo, Consolas, monospace;}
+      .fg{fill:#eeeeee}.muted{fill:#9a9a9a}.dim{fill:#626262}
+      .thin{stroke:#bdbdbd;stroke-width:1.5;fill:none}.dash{stroke-dasharray:8 8}
+      .title{font-size:50px;font-weight:650;letter-spacing:-1px}.small{font-size:24px;font-weight:500}.tiny{font-size:18px;font-weight:500;letter-spacing:1.5px}.foot{font-size:18px;font-weight:500;letter-spacing:1.2px}.label{font-size:25px;font-weight:620}.sub{font-size:20px;font-weight:500}
+    </style>
+  </defs>
+
+  <rect width="1600" height="1600" fill="#050505"/>
+  <rect x="92" y="86" width="1416" height="1428" class="thin" opacity=".65"/>
+  <line x1="92" y1="162" x2="1508" y2="162" class="thin" opacity=".55"/>
+  <circle cx="134" cy="124" r="7" fill="#eeeeee" opacity=".85"/>
+  <circle cx="166" cy="124" r="7" fill="#eeeeee" opacity=".45"/>
+  <circle cx="198" cy="124" r="7" fill="#eeeeee" opacity=".25"/>
+  <text x="1420" y="132" text-anchor="end" class="mono tiny dim">{{CARD_ID}}</text>
+
+  <text x="154" y="254" class="mono tiny dim">{{EYEBROW}}</text>
+  <text x="154" y="332" class="mono title fg">{{TITLE}}</text>
+  <text x="154" y="384" class="mono small muted">{{SUBTITLE}}</text>
+  <line x1="154" y1="452" x2="1446" y2="452" class="thin" opacity=".6"/>
+
+  <g transform="translate(154 500)">
+    <text x="0" y="32" class="mono tiny dim">MANY</text>
+    <text x="0" y="372" class="mono tiny dim">FEWER</text>
+    <text x="0" y="704" class="mono tiny dim">PROOF</text>
+    <line x1="74" y1="42" x2="74" y2="688" class="thin dash" opacity=".36"/>
+
+    <rect x="204" y="0" width="1088" height="178" class="thin" opacity=".64"/>
+    <text x="236" y="56" class="mono tiny dim">STAGE 1 · OPTIONS</text>
+    <text x="236" y="106" class="mono label fg">{{STAGE_1_TITLE}}</text>
+    <text x="236" y="146" class="mono sub muted">{{STAGE_1_DESC}}</text>
+
+    <path d="M748 194 L748 232 M724 210 L748 232 L772 210" class="thin" opacity=".68"/>
+
+    <rect x="314" y="248" width="868" height="178" class="thin" opacity=".64"/>
+    <text x="346" y="304" class="mono tiny dim">STAGE 2 · FILTER</text>
+    <text x="346" y="354" class="mono label fg">{{STAGE_2_TITLE}}</text>
+    <text x="346" y="394" class="mono sub muted">{{STAGE_2_DESC}}</text>
+
+    <path d="M748 442 L748 480 M724 458 L748 480 L772 458" class="thin" opacity=".68"/>
+
+    <rect x="424" y="496" width="648" height="178" class="thin" opacity=".64"/>
+    <text x="456" y="552" class="mono tiny dim">STAGE 3 · OUTPUT</text>
+    <text x="456" y="602" class="mono label fg">{{STAGE_3_TITLE}}</text>
+    <text x="456" y="642" class="mono sub muted">{{STAGE_3_DESC}}</text>
+
+    <text x="748" y="738" text-anchor="middle" class="mono tiny dim">WIDE INPUT → NARROWER DECISION → TESTABLE OUTPUT</text>
+  </g>
+
+  <line x1="154" y1="1252" x2="1446" y2="1252" class="thin" opacity=".6"/>
+  <text x="154" y="1324" class="mono tiny dim">RULE</text>
+  <text x="154" y="1380" class="mono small fg">{{RULE_LINE_1}}</text>
+  <text x="154" y="1428" class="mono small muted">{{RULE_LINE_2}}</text>
+
+  <text x="154" y="1468" class="mono foot dim">template/funnel</text>
+  <text x="1446" y="1468" text-anchor="end" class="mono foot dim">{{FOOTER_RIGHT}}</text>
+</svg>
