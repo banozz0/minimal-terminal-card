@@ -79,6 +79,7 @@ Current templates:
 - `stack` — layered systems
 - `funnel` — narrowing/filtering decisions
 - `bento-field-note` — peer principles/rules
+- `research-summary` — source summary cards: title, TLDR, signal points, status, action verdict
 
 ## Quick Start
 
