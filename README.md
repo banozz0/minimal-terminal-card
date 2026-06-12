@@ -14,6 +14,45 @@ Thread mode example:
 
 ![Thread contact sheet](threads/proof-over-confidence/thread-contact-sheet.png)
 
+## Use Cases
+
+Use Minimal Terminal Card for:
+
+- X/Twitter-ready visual notes
+- compact diagrams from ideas or conversations
+- workflow/process cards
+- comparison cards
+- operating principles and checklists
+- dense schedule/agenda cards
+- multi-card threads or carousels when one card would become unreadable
+
+Do **not** use it for photorealistic images, colorful posters, data visualizations with unverified numbers, or long-form documents.
+
+## Installation
+
+Clone the repo:
+
+```bash
+git clone git@github.com:banozz0/minimal-terminal-card.git
+cd minimal-terminal-card
+```
+
+Or with HTTPS:
+
+```bash
+git clone https://github.com/banozz0/minimal-terminal-card.git
+cd minimal-terminal-card
+```
+
+Requirements:
+
+- Python 3
+- one SVG-to-PNG renderer:
+  - macOS: `qlmanage` usually works out of the box
+  - Linux/macOS: `rsvg-convert` or `inkscape`
+
+No Python package install is required for the bundled helper script.
+
 ## What It Includes
 
 ```text
